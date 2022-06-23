@@ -70,6 +70,7 @@ variable "eks_oidc_root_ca_thumbprint" {
 }
 
 variable "external_secrets_region" {
+  default     = "value"
   type        = string
   description = "Region to look for external secrets"
 }
